@@ -1,0 +1,29 @@
+{
+  "name": "lib-media-session",
+  "version": "1.0.0",
+  "description": "a JavaScript Library To Show Cover",
+  "main": "dist/lib-media-session.min.js",
+  "dependencies": {
+    "daycaca": "^1.0.2"
+  },
+  "devDependencies": {
+    "ykit": "^0.7.7",
+    "ykit-config-es6": "^3.2.1",
+    "ykit-config-less": "^1.0.4"
+  },
+  "scripts": {
+    "dev": "ykit server -p 9001",
+    "build": "ykit pack -m",
+    "release": "ykit pack -m --deploy true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackPu/lib-media-session.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackPu/lib-media-session/issues"
+  },
+  "homepage": "https://github.com/JackPu/lib-media-session#readme"
+}
