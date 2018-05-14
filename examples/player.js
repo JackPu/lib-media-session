@@ -400,11 +400,9 @@ window.addEventListener('resize', resize);
 mediaSession.init({
     setTitle: true,
     play() {
-      alert(1)
       player.play();
     },
     pause () {
-      alert(2)
       player.pause();
     },
     previoustrack() {
