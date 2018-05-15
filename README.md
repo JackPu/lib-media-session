@@ -1,4 +1,4 @@
-# lib-meida-seesion
+# lib-meida-session
 
 A JavaScript Library To Show Cover
 
